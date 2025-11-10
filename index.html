@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Músicos invitados</title>
+  <style>
+    body {
+      background-color: #e8f4f8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      color: #2c3e50;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+
+    /* Marco editorial para la presentación */
+    .presentation-box {
+      border-left: 6px solid #1a5276;
+      background: #f0f8fc;
+      padding: 30px 30px 30px 45px;
+      margin: 35px auto;
+      max-width: 800px;
+      border-radius: 0 10px 10px 0;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+    }
+    .presentation-box p {
+      margin: 14px 0;
+      font-size: 1.05rem;
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+    .presentation-box .quote-author {
+      font-weight: bold;
+      color: #1a5276;
+      margin: 0 0 25px;
+      font-size: 1.1rem;
+    }
+    .presentation-box .signature {
+      margin-top: 25px;
+      font-style: italic;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    /* Estilo para los músicos */
+    .musician {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      margin-bottom: 40px;
+      padding: 25px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .musician img {
+      width: 180px;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #d5eaf2;
+      object-fit: cover;
+    }
+    .bio h2 {
+      margin-top: 0;
+      color: #1a5276;
+    }
+    .instrument {
+      font-weight: bold;
+      color: #3498db;
+      margin-bottom: 12px;
+    }
+    .bio p:not(.short) {
+      text-align: justify;
+      text-justify: inter-word;
+      hyphens: auto;
+    }
+    .bio p.short {
+      text-align: left;
+    }
+    .bio a {
+      color: #e67e22;
+      text-decoration: none;
+    }
+    .bio a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .musician {
+        flex-direction: column;
+      }
+      .musician img {
+        width: 100%;
+        max-width: 200px;
+      }
+      .presentation-box {
+        padding: 25px 20px 25px 35px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- ✅ PRESENTACIÓN CON MARCO (fiel a tu web) -->
+    <div class="presentation-box">
+      <h1>...la única forma verdaderamente completa</h1>
+      <h1>de acercarse a la música es escuchándola.</h1>
+      <div class="quote-author">Juan Arturo Brennan</div>
+
+      <p>La expresión musical viva es por excelencia una de las experiencias más ricas que nos permite sentir toda una gama de sensaciones y sentimientos, que van desde lo puramente hedonista hasta la más sublime espiritualidad.</p>
+
+      <p>Como artista es una necesidad el expresar todo el abanico de sensaciones y sentimientos inmersos en cada una de las obras musicales que nos mueve a interpretarlas o recrearlas en un contexto determinado para un público particular. Es por ello que me parece fundamental el propiciar espacios para lograr por lo menos una escucha placentera, llevando en cada presentación toda una herencia cultural que nos ha determinado como sociedad a lo largo de la historia.</p>
+
+      <p>El único hilo conductor para tal diversidad musical es el compromiso de compartir con un público la pasión por la que vivo: hacer música.</p>
+
+      <div class="signature">
+        Óscar Cárdenas.<br>
+        Compositor y guitarrista mexicano.
+      </div>
+    </div>
+
+    <!-- ✅ Título del disco + metáfora -->
+    <h2 style="
+      text-align: center;
+      color: #1a5276;
+      margin: 40px 0 15px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    ">Frente al Espejo</h2>
+
+    <p style="
+      text-align: center;
+      color: #5d6d7e;
+      font-size: 1.15rem;
+      font-style: italic;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    ">
+      Las luces del espejo: los músicos cuyas presencias, talentos y sensibilidades se reflejan en cada obra, iluminando el camino del compositor y enriqueciendo su sonido.
+    </p>
+
+    <!-- MÚSICOS -->
+
+    <div class="musician">
+      <img src="fotos/remy-erney.jpg" alt="Remy Erney Farfán Ríos">
+      <div class="bio">
+        <h2>Remy Erney Farfán Ríos</h2>
+        <div class="instrument">Instrumento: Guitarra</div>
+        <p>Inició su actividad musical a los 10 años en Mazatlán, Sinaloa. Estudió en la Escuela Nacional de Música de la UNAM (1988–1997) con los maestros Humberto Cambranis y Antonio López. Se ha presentado en foros como la Sala Silvestre Revueltas, el Museo del Chopo y la Sala Xochipilli. Ha colaborado con el grupo de música antigua Hermes, el Coro de la Universidad Panamericana y el coro Voce in Tempore. Fue integrante del grupo Inca Taki (1991–2007), con el que realizó giras, grabó dos discos y se presentó durante catorce años en las peñas El Mesón de la Guitarra y Gallo’s. Fue músico de Raquel Olmedo en sus espectáculos teatrales y en la grabación del disco “Con el alma en cueros” (2008). Desde 2007 es director y guitarrista del grupo Canto Altano, con el que ha grabado los discos “Hilando Voces” y “Dicen Los Vientos”, y se ha presentado en festivales de Sinaloa y la Ciudad de México.</p>
+        <p><a href="https://www.facebook.com/cantoaltano" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/daniel-hernandez.jpg" alt="Daniel Hernández Ramírez">
+      <div class="bio">
+        <h2>Daniel Hernández Ramírez</h2>
+        <div class="instrument">Instrumento: Flauta transversa</div>
+        <p>Egresado de la Escuela Nacional de Música (actual Facultad de Música). Estudió con los maestros Rubén Islas y Héctor Jaramillo. Ha participado en orquestas y principalmente en grupos de cámara. De 2001 a 2009 participó activamente en el ensamble de música tradicional japonesa Kasou Kai con conciertos en el país, varias giras al extranjero y en la grabación de un disco. También forma parte del dúo de arpa y flauta con la maestra Mabel Rodríguez con quien ha dado conciertos en diversas salas. En 2012 participaron en el Festival de las Noches Blancas en la ciudad de Perm, Rusia.</p>
+        <p>Actualmente se dedica ampliamente a la docencia y se encuentra preparando material para flauta sola.</p>
+        <p><a href="https://www.facebook.com/daniel.hernandezramirez.752" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/cynthia-cardenas.jpg" alt="Cynthia Cárdenas Barranco">
+      <div class="bio">
+        <h2>Cynthia Cárdenas Barranco</h2>
+        <div class="instrument">Instrumento: Soprano</div>
+        <p>Nació en la Ciudad de México el 27 de enero de 1999. Comenzó sus estudios artísticos en el 2009, tomando clases de piano y desde el 2010 forma parte de “Vocalise” y “Opuscorpus”, dirigidos por Martha Molinar. 
+Cuenta con un Técnico profesional en Ejecutante en Danza Contemporánea del Centro Cultural Ollin Yoliztli. Actualmente concluyó la licenciatura de Danza Opción Multidisciplinar en la Academia de la Danza Mexicana del INBAL y desde el 2021 estudia la carrera de Canto en la Facultad de Música UNAM, bajo la cátedra de los maestros Alfredo Portilla y Lorena Barranco. 
+Ha cantado en grabaciones de películas y series, dirigida por Gaby Cárdenas y Ulises Maynardo. Se ha presentado como cantante en algunas salas y teatros de la Ciudad de México y en Toluca, Estado de México.</p>
+        <p><a href="https://www.instagram.com/cyn.cb" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/mireya-gonzalez.jpg" alt="Mireya González">
+      <div class="bio">
+        <h2>Mireya González</h2>
+        <div class="instrument">Instrumento: Piano</div>
+        <p>Desde pequeña, Mireya manifestó un talento natural para la música, motivada por un ambiente musical familiar, esto la llevó a decidir muy pronto sus objetivos de vida: estudiar música. Con una voluntad férrea, y con un objetivo claro, avanzó en sus estudios rápidamente, desarrollando sensibilidad y técnica orientada por sus primeros profesores Eduardo Caballero y Saúl Rocha, iniciando con órgano melódico y especializándose en piano. Al ingresar a la Escuela Nacional de Música de la UNAM, encontró la dirección, la motivación y el apoyo de la Maestra Ma. Pilar Vidal Álvarez, quien influyó de manera determinante en su formación profesional, hasta obtener el grado de licenciada en Piano.</p>
+        <p>Mireya se ha presentado en conciertos como solista en salas como Ollin Yolliztli, Carlos Chávez, Xochipilli, Huehuecóyotl, entre otras; y con distintas agrupaciones en diversos foros. Su vocación por comunicar a otros su pasión por la música la ha llevado a desempeñarse como docente en el Instituto de Educación Media Superior del Gobierno del Distrito Federal donde actualmente imparte cátedra.</p>
+        <p><a href="https://mx.linkedin.com/in/mireya-gonz%C3%A1lez-b51a2a3b" target="_blank">Linkedin</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/bogdan-chavez.jpg" alt="Bogdan Chávez">
+      <div class="bio">
+        <h2>Bogdan Chávez</h2>
+        <div class="instrument">Instrumentos: Percusiones</div>
+        <p>Baterista y productor mexicano, comenzó su carrera musical a los cuatro años de edad. Cursó sus primeros estudios musicales en la Escuela de Iniciación del INBA, posteriormente tomó clases con el profesor Jorge González y fue alumno del Taller de Jazz impartido en la Escuela Superior de Música. Continuó su formación, con miras a perfeccionar su técnica, bajo la tutela de diversos bateristas, tales como Horacio “el negro” Hernández y Ruy López Nussa, a quien conoció en la ciudad de la Habana, Cuba.</p>
+        <p>Como músico profesional se ha mantenido fuertemente activo, participando en distintos proyectos de música popular, ofreciendo giras nacionales e internacionales, así como múltiples obras teatrales. Ha grabado música para películas, jingles y más de 30 discos. Incursionó en la producción musical con su estudio de grabación BOGDRUM, que cuenta ya con un catálogo considerable, incluyendo este álbum de ES PURiO JAZZ quarteto, agrupación de la cual es cofundador desde el 2010.</p>
+        <p><a href="https://www.facebook.com/Bogdrum/" target="_blank">Facebook</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/victor-flores.jpg" alt="Víctor Flores">
+      <div class="bio">
+        <h2>Víctor Flores</h2>
+        <div class="instrument">Instrumento: Contrabajo</div>
+        <p>Contrabajista mexicano realizó estudios en la Escuela Nacional de Música de la UNAM y en la Escuela de Perfeccionamiento Vida y Movimiento del Conjunto Cultural “Ollín Yoliztli”. Ha participado en cursos y clases magistrales impartidos por maestros como: Mtro. Eugene Levinson, John Shaeffer, Mijail Stadiniscki, Lucy van Dale, entre otros. En 1992 gana, como solista, la medalla Cynthia Woods dentro del Texas Music Festival. La embajada de Austria en conjunto con la Academia Medalla Mozart A.C., le otorgan la Medalla Mozart, en 2009.</p>
+        <p>Ha ganado por concurso los puestos de contrabajista principal en la Orquesta de Cámara de Bellas Artes y en la Orquesta Filarmónica de la UNAM, de Coprincipal en la Orquesta Filarmónica de la Ciudad de México, además de ser invitado como principal en la Orquesta Sinfónica de Minería y de la Orquesta del Festival Mozart-Haydn. Ha sido invitado como solista en las Orquestas más prestigiadas del país. Víctor Flores es considerado como uno de los contrabajistas mexicanos más importantes de Latinoamérica por interpretar desde música renacentista hasta música nueva y presentarse exitosamente en los principales foros y festivales de México y del extranjero.</p>
+        <p><a href="https://www.instagram.com/p/CnhjQeWOGZA/" target="_blank">Instagram</a></p>
+      </div>
+    </div>
+
+    <div class="musician">
+      <img src="fotos/oscar-cardenas.jpg" alt="Óscar Cárdenas">
+      <div class="bio">
+        <h2>Óscar Cárdenas</h2>
+        <div class="instrument">Rol: Compositor y guitarrista mexicano</div>
+        <p>Originario de Chihuahua, inició estudios formales de guitarra con Cleofas Villegas y, posteriormente, con Juan Carlos Chacón en el Conservatorio Nacional de Música (1989–1991). Se tituló como Licenciado en Guitarra en la Facultad de Música de la UNAM (2004), bajo la guía de Marco Antonio Anguiano y Juan Carlos Laguna. Tomó clases magistrales con Iván Rijos, Alirio Díaz, Guillermo González y Julio César Oliva, así como cursos de perfeccionamiento con Leo Brouwer y Frank Bungarten en La Habana (1994). Ha estudiado armonía y análisis con Jaime Uribe, y música renacentista con Joseph Cabré.</p>
+        <p>Como compositor, ha creado obras para guitarra sola, dúos, voz y guitarra, flauta, clarinete, cuarteto de flautas, cuarteto de saxofones y arreglos de música latinoamericana. Su música fue incluida en la puesta en escena de “Sueño de una Noche de Verano” en la Universidad Iberoamericana. Es miembro de la Liga de Compositores desde 2003, donde actualmente funge como Secretario, y del Centro de Apoyo para la Música Mexicana de Concierto.</p>
+        <p>Ha participado como guitarrista solista en México y Belice, y con agrupaciones como la Orquesta Sinfónica bajo la dirección de Enrique Diemecke, Jorge Córdoba y Enrique Barrios. Ha grabado con Ramón Vargas, Eva María Santana y el coro Voce In Tempore, y como compositor en la producción del Cuarteto de Saxofones Anacrúsax. Ha estrenado obras de compositores mexicanos y extranjeros.</p>
+        <p>Ganador del Primer Concurso Nacional de Guitarra en Paracho (1996) y segundo lugar en el de Guanajuato (1994). Desde 2010 integra el proyecto ES PURiO JAZZ, con el que ha grabado dos discos y presentado conciertos en la Ciudad de México y provincia. En 2020 lanzó su primera grabación solista con obras propias.</p>
+        <p><a href="https://conciertos-oscarcardenas.es.tl" target="_blank">Página web</a></p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
